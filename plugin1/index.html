@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+    <meta charset="utf-8" />
+    <title>JavaScript Final Project Home</title>
+	<link rel="stylesheet" type="text/css" href="../style.css">
+</head>
+
+<body>
+  <div class="js-warning">Please Enable JavaScript</div>
+  <div id="wrapper">
+    <header>
+			<a href="../index.html"><img id="logo" src="../assets/mil.png" alt="Milwaukee Bucks Logo"></a>
+			<p id="info"><span id="myname"> Aaron Kahan</span><br><span id="classname">JavaScript<br>Final Project</span><br></p>
+      <h1>Validation Page</h1>
+		</header>
+  <nav>
+    <div id="nav">
+    <ul id="navList">
+      <li><a href="../index.html">Home Page</a></li>
+      <li><a href="../plugin1/index.html">Plugin 1 - Validation</a></li>
+      <li><a href="../plugin2/index.html">Plugin 2 - Invert Scroll</a></li>
+      <li><a href="../plugin3/index.html">Plugin 3 - Knobs</a></li>
+      <li><a href="../plugin4/index.html">Plugin 4 - TwentyTwenty</a></li>
+      <li><a href="../plugin5/index.html">Plugin 5 - Warpdrive</a></li>
+      <li><a href="../tabs/index.html">Tabs</a></li>
+      <li><a href="../json/index.html">JSON</a></li>
+      <li><a href="../ajax/index.html">AJAX</a></li>
+      <li><a href="https://akahan.bitweb1.nwtc.edu/javascript/assignments/12/map/index.html">Map</a></li>
+    </ul>
+    </div>
+  </nav>
+  <main>
+    <form novalidate action="//example.com" id="form" name="form" method="post">
+    			<div>
+    			<label for="name">Name</label>
+    			<br>
+    			<input type="text" name="name" id="name">
+    			</div>
+    			<div>
+    			<label for="phone">Phone</label>
+    			<br>
+    			<input type="text" name="phone" id="phone">
+    			</div>
+    			<div>
+    			<label for="email">Email</label>
+    			<br>
+    			<input type="text" name="email" id="email">
+    			</div>
+          <div>
+    			<label for="card">Credit Card Number</label>
+    			<br>
+    			<input type="text" name="card" id="card">
+    			</div>
+    			<div>
+    			<label for="instructions">Additional Instructions</label>
+    			<br>
+    			<textarea name="instructions" id="instructions" cols="60" rows="8"></textarea>
+    			</div>
+          <div>
+          <label for="tickets">Number of Tickets</label>
+          <br>
+          <select id="tickets" name="tickets" title="Number of Tickets">
+                        <option value=""></option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+          </select>
+          </div>
+          <div>
+          <label for="section">Section Number</label>
+          <br>
+          <select id="section" name="section" title="Section Number">
+                        <option value=""></option>
+                        <option value="210">210</option>
+                        <option value="215">215</option>
+                        <option value="224">224</option>
+                        <option value="226">226</option>
+                        <option value="410">410</option>
+                        <option value="415">415</option>
+                        <option value="426">426</option>
+                        <option value="433">433</option>
+                        <option value="434">434</option>
+                        <option value="440">440</option>
+                        <option value="443">443</option>
+          </select>
+
+          </div>
+          <div>
+          <p>Pick which game you would like tickets for</p>
+          <label for="dec15">Milwaukee Bucks vs Chicago Bulls Dec 15th</label>
+          <input type="radio" id="dec15" value="dec15" name="game">
+          <br>
+          <label for="dec19">Milwaukee Bucks vs Cleveland Cavaliers Dec 19th</label>
+          <input type="radio" id="dec19" value="dec19" name="game">
+          <br>
+          <label for="dec22">Milwaukee Bucks vs Charlotte Hornets Dec 22nd</label>
+          <input type="radio" id="dec22" value="dec22" name="game">
+          <br>
+          <label for="dec26">Milwaukee Bucks vs Chicago Bulls Dec 26th</label>
+          <input type="radio" id="dec26" value="dec26" name="game">
+          </div>
+          <div>
+          <p>Which player bobbleheads would you like a chance at winning?</p>
+          <input type="checkbox" class="checkbox" id="giannis" value="giannis" name="player">
+          <label for="giannis">Giannis Antetokounmpo</label>
+          <br>
+          <input type="checkbox" class="checkbox" id="aaron" value="aaron" name="player">
+          <label for="aaron">Eric Bledsoe</label>
+          <br>
+          <input type="checkbox" class="checkbox" id="ryan" value="ryan" name="player">
+          <label for="ryan">Malcom Brogdon</label>
+          <br>
+          <input type="checkbox" class="checkbox" id="eric" value="eric" name="player">
+          <label for="eric">Khris Middleton</label>
+          <br>
+          <input type="checkbox" class="checkbox" id="khris" value="khris" name="player">
+          <label for="khris">Jabari Parker</label>
+          <br>
+          <input type="checkbox" class="checkbox" id="jordy" value="jordy" name="player">
+          <label for="jordy">John Henson</label>
+          </div>
+          <div>
+          <p>Have you bought Milwaukee Bucks tickets before?</p>
+          <label for="yes">Yes</label>
+          <input type="radio" id="yes" value="yes" name="returningcustomer">
+          <br>
+          <label for="no">No</label>
+          <input type="radio" id="no" value="no" name="returningcustomer">
+          </div>
+          <input type="submit" value="Send">
+
+
+    			</form>
+  </main>
+	<footer>
+		<p>
+			<a href="../../index.html">Copyright&copy; 2017 AARON</a>
+			<a href="http://jigsaw.w3.org/css-validator/check/referer/">CSS</a>
+			<a href="http://validator.w3.org/check?uri=referer">HTML</a>
+		</p>
+	</footer>
+</div>
+<!-- Load jQuery from a CDN -->
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/jquery.validate.min.js"></script>
+
+<!-- Load External JS File  if loading from CDN fails -->
+<script>window.jQuery || document.write('<script src="assets/jquery-3.2.1.min.js"><\/script>')</script>
+<script>window.jQuery.fn.validate || document.write('<script src="../assets/jquery.validate.min.js"><\/script>')</script>
+
+<!-- Load External JS File -->
+<script src="script.js"></script>
+</body>
+</html>
