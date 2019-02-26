@@ -46,14 +46,12 @@ h1{
 }
 
 #logo{
-  width: auto;
+  width: 150px;
   height: 150px;
   margin-top: 10px;
   margin-left: 0px;
 }
-#info{float:right;
-		 text-align:right;
-		 margin-right:30px;
+#info{text-align:center;
 		 color:#264e36;
 		 font-weight:bold;
 }
