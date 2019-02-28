@@ -59,12 +59,20 @@ h1{
 }
 #info{
 	text-align: center;
-	margin-right: 160px;
 	color:#264e36;
 	font-weight:bold;
 	font-size:60px;
 	margin-bottom: 90px;
 	padding-top: 30px;
+	padding-left: 10px;
+}
+#quote{
+	font-weight:bold;
+	font-size:15px;
+	font-style: italic;
+	float: right;
+	margin-right: 5px;
+	margin-top: 20px;
 }
 form div{
   margin: 15px;
