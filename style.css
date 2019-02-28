@@ -46,14 +46,17 @@ h1{
 }
 
 #logo{
-  width: 150px;
+  width: auto;
   height: 150px;
   margin-top: 10px;
   margin-left: 0px;
+	float: left;
 }
-#info{text-align:center;
-		 color:#264e36;
-		 font-weight:bold;
+#info{
+	text-align: center;
+	margin-right: 160px;
+	color:#264e36;
+	font-weight:bold;
 }
 #myname{font-size:30px;
 }
