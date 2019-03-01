@@ -5,14 +5,14 @@ body{
 div#wrapper{margin-left:auto;
    			    margin-right:auto;
    			    width:1024px;
-   			    background-color:#DAD3AF;
+   			    background-color:black;
             border-radius:10px;
 }
 nav{float:left;
     width:230px;
     margin:20px 0px 20px 20px;
 }
-div#nav{background-color:#264e36;
+div#nav{background-color:#1E392A;
         border-radius:10px;
         padding:6px;
         margin-bottom:10px;
@@ -39,7 +39,7 @@ main a:hover{color:#835EA4;
 a{text-decoration:none;
 }
 main{margin:20px 80px 0px 260px;
-	   background-color:#264e36;
+	   background-color:#1E392A;
   	 padding:20px 30px;
 	   color:white;
 	   border-radius:10px;
@@ -59,7 +59,7 @@ h1{
 }
 #info{
 	text-align: center;
-	color:#264e36;
+	color:white;
 	font-weight:bold;
 	font-size:60px;
 	margin-bottom: 90px;
@@ -73,11 +73,12 @@ h1{
 	float: right;
 	margin-right: 5px;
 	margin-top: 20px;
+	color:white;
 }
 form div{
   margin: 15px;
 	padding: 8px;
-  border: 3px solid #DAD3AF;
+  border: 3px solid #1E392A;
 }
 
 /*CSS for plugin1*/
