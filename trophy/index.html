@@ -2,9 +2,8 @@
 <html lang="en" class="no-js">
 <head>
     <meta charset="utf-8" />
-    <title>JavaScript Final Project Map Page</title>
-  <link rel="stylesheet" type="text/css" href="../style.css">
-  <link href="https://fonts.googleapis.com/css?family=Spectral+SC" rel="stylesheet">
+    <title>JavaScript Final Project Invert Scroll</title>
+	<link rel="stylesheet" type="text/css" href="../style.css">
 </head>
 
 <body>
@@ -12,25 +11,22 @@
   <div id="wrapper">
     <header>
 			<a href="../index.html"><img id="logo" src="../assets/mil.png" alt="Milwaukee Bucks Logo"></a>
-      <h1>Map Page</h1>
+      <h1>Invert Scroll Page</h1>
 		</header>
   <nav>
     <div id="nav">
     <ul id="navList">
       <li><a href="../index.html">Home Page</a></li>
-      <li><a href="../plugin1/index.html">Plugin 1 - Validation</a></li>
-      <li><a href="../plugin2/index.html">Plugin 2 - Invert Scroll</a></li>
-      <li><a href="../plugin3/index.html">Plugin 3 - Knobs</a></li>
-      <li><a href="../plugin4/index.html">Plugin 4 - TwentyTwenty</a></li>
-      <li><a href="../plugin5/index.html">Plugin 5 - Warpdrive</a></li>
-      <li><a href="../tabs/index.html">Tabs</a></li>
-      <li><a href="../json/index.html">JSON</a></li>
-      <li><a href="../ajax/index.html">AJAX</a></li>
+      <li><a href="../constitution/index.html">League Constitution</a></li>
+      <li><a href="../trophy/index.html">League Trophy</a></li>
+      <li><a href="../seasons/index.html">League History</a></li>
     </ul>
     </div>
   </nav>
   <main>
-    <div id="map"></div>
+    <img id='rodgers' src='../assets/1234.png' alt='Aaron Rodgers and Giannis'>
+    <div id='giannisDunk'><img src='../assets/giannisdunk1.png' alt='Giannis Dunking'></div>
+    <img id='hoop' src='../assets/hoop.png' alt='Basketball Hoop'>
   </main>
 	<footer>
 		<p>
@@ -41,11 +37,14 @@
 </div>
 <!-- Load jQuery from a CDN -->
 	<script src="//ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/jquery.validate.min.js"></script>
 
 <!-- Load External JS File  if loading from CDN fails -->
 <script>window.jQuery || document.write('<script src="assets/jquery-3.2.1.min.js"><\/script>')</script>
+<script>window.jQuery.fn.validate || document.write('<script src="../assets/jquery.validate.min.js"><\/script>')</script>
 
 <!-- Load External JS File -->
+<script src="../assets/jquery.jInvertScroll.js"></script>
 <script src="script.js"></script>
 </body>
 </html>
