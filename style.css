@@ -1,5 +1,5 @@
 body{
- 		 background-image: url(assets/cash1.jpg);
+ 		 background-image: url(assets/cash2.jpg);
 	   font-family:Arial;
 }
 
@@ -137,6 +137,7 @@ padding: 10px;
 .trophyimg{
 	width: 620px;
 	height:auto;
+  margin-bottom: 10px;
 }
 
 #giannisDunk{
