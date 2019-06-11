@@ -105,6 +105,24 @@ h3{
 #text{
   font-size:15px;
 }
+.check{
+  width: auto;
+  height: 20px;
+}
+table{
+  width: 50%;
+}
+table td{
+    text-align: center;
+}
+.qr{
+  width: auto;
+  height: 200px;
+  margin: 30px;
+}
+.pay{
+  width: 10%;
+}
 form div{
   margin: 15px;
 	padding: 8px;
