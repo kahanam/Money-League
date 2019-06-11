@@ -105,7 +105,7 @@ h3{
 #text{
   font-size:15px;
 }
-.check{
+.check, .x{
   width: auto;
   height: 20px;
 }
@@ -118,10 +118,24 @@ table td{
 .qr{
   width: auto;
   height: 200px;
-  margin: 30px;
 }
-.pay{
-  width: 10%;
+
+.container {
+    width: 100%;
+    height: 400px;
+    margin: 10px;
+    padding: 5px;
+}
+.pay1 {
+    width: 50%;
+    height: 200px;
+    float: left;
+    text-align: center;
+}
+.pay2 {
+    height: 200px;
+    margin-left: 50%;
+    text-align: center;
 }
 form div{
   margin: 15px;
