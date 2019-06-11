@@ -80,7 +80,7 @@ h3{
   width: auto;
   height: 150px;
   margin-top: 10px;
-  margin-left: 0px;
+  margin-left: 20px;
 	margin-bottom: 10px;
 	float: left;
 }
@@ -111,6 +111,7 @@ h3{
 }
 table{
   width: 50%;
+  margin-left: 20%
 }
 table td{
     text-align: center;
