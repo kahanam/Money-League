@@ -20,6 +20,9 @@ div#nav{background-color:#1E392A;
         padding:6px;
         margin-bottom:10px;
 }
+nav ul{
+  list-style-type: none;
+}
 
 header{
 	padding-top: 20px;
@@ -48,7 +51,14 @@ main a:hover{color:#835EA4;
              font-size: 1.02em;
 }
 
-a{text-decoration:none;
+footer a{
+  color:white;
+  margin: 5px;
+  font-size: 0.8em;
+}
+
+a{
+  text-decoration:none;
 }
 
 main{margin:20px 80px 0px 260px;
@@ -65,11 +75,16 @@ h1{
 
 h2{
   font-size: 2em;
+  color: #ffc20f;
 }
 
 h3{
   font-size: 1.3em;
   margin-left: 10px;
+  color: #fed458;
+}
+h4{
+  color: #ffe18a
 }
 
 .h3text{
@@ -144,48 +159,9 @@ form div{
   border: 3px solid #1E392A;
 }
 
-/*CSS for plugin1*/
-.error {
-  background-color: #ff3300;
-}
-
-.error-parent {
-  background: #835EA4;
-  padding-bottom: 10px;
-}
-/*CSS for no-js*/
-.js-warning {display: none;
-}
-.no-js .js-warning {
-display: block;
-text-align: center;
-font-size: 2em;
-font-weight: bold;
-background-color: red;
-color: white;
-padding: 10px;
-}
-
 /*CSS for trophy*/
 .trophyimg{
 	width: 620px;
 	height:auto;
   margin-bottom: 10px;
-}
-
-#giannisDunk{
-  position: fixed;
-  bottom: 0;
-  left: 0;
-	z-index: 2;
-	margin-right: 1000px;
-}
-
-#hoop{
-	position:fixed;
-	bottom:430px;
-	right:0;
-	width: 200px;
-	height: auto;
-	z-index: 1;
 }
