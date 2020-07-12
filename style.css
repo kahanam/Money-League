@@ -166,3 +166,18 @@ form div{
 	height:auto;
   margin-bottom: 10px;
 }
+
+/*CSS for Seasons*/
+.champions{
+  border-style: groove;
+  padding: 30px;
+  margin: 15px;
+}
+.championsList{
+  list-style-type: none;
+}
+.yearHeader{
+  font-size: 2.5em;
+  color: #ffc20f;
+  text-decoration: underline;
+}
